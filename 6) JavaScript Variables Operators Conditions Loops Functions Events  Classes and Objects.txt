@@ -1,0 +1,23 @@
+<button id="age">Check</button>
+    <script>
+        document.getElementById("age").addEventListener("click", (e) => {
+            var age = prompt("Enter your age:", age);  //variable
+            if (age < 18)                                //conditional statement
+            {
+                reqage = 18 - age   //operator
+                alert("You are not an adult, you can vote after " + reqage + " years")
+            }
+            else alert("You are adult and are eligible for voting")
+
+        })        
+    </script>
+<script>
+        var count = 0;
+       
+        document.write("<br /><br />Starting Loop<br /><br />");
+        while (count < 11) {
+            document.write("Current Count : " + count + "<br />");
+            count++;
+        }
+        document.write("<br />Loop stopped!");
+    </script>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(20, 3, 1);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Styling a link depending on state</h2>
+<p>This is the 1st line of the paragraph Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more. </p>
+<b><a href="default.asp" target="_blank">This is a link</a></b>
+
+</body>
+</html>
